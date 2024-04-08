@@ -15,12 +15,12 @@ export INTERNAL_IP
 # Replace Startup Variables
 # shellcheck disable=SC2086
 MODIFIED_STARTUP=$(echo -e ${STARTUP} | sed -e 's/{{/${/g' -e 's/}}/}/g')
-echo -e "${YELLOW}STARTUP /home/container: ${MODIFIED_STARTUP} ${RESET_COLOR}"
+echo -e "STARTUP /home/container: ${MODIFIED_STARTUP}"
 
 # Run the Server
 # shellcheck disable=SC2086
-echo "Welcome to Gravel Host! If you have any issues please contact us on our discord."
-echo "discord.gg/gravelhost"
+echo -e "${YELLOW}Welcome to Gravel Host! If you have any issues please contact us on our discord. ${RESET_COLOR}"
+echo -e "${YELLOW}discord.gg/gravelhost ${RESET_COLOR}"
 eval ${MODIFIED_STARTUP}
 
 
