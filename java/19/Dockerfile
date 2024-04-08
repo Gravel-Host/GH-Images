@@ -1,6 +1,6 @@
 FROM        eclipse-temurin:19-focal
 
-LABEL       author="Softwarenoob" maintainer="admin@softwarenoob.com"
+LABEL       author="Daniel Chu" maintainer="danielchu096@gmail.com"
 LABEL       org.opencontainers.image.source="https://github.com/Software-Noob/pterodactyl-images"
 LABEL       org.opencontainers.image.licenses="MIT"
 
