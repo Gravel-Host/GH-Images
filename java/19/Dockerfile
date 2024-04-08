@@ -1,7 +1,7 @@
 FROM        eclipse-temurin:19-focal
 
 LABEL       author="Daniel Chu" maintainer="danielchu096@gmail.com"
-LABEL       org.opencontainers.image.source="https://github.com/Software-Noob/pterodactyl-images"
+LABEL       org.opencontainers.image.source="https://github.com/Gravel-Host/GH-Images"
 LABEL       org.opencontainers.image.licenses="MIT"
 
 RUN         apt-get update -y \
