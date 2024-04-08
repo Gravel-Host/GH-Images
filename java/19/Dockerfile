@@ -1,7 +1,7 @@
 FROM        eclipse-temurin:19-focal
 
-LABEL       author="Daniel Chu" maintainer="danielchu096@gmail.com"
-LABEL       org.opencontainers.image.source="https://github.com/Gravel-Host/GH-Images"
+LABEL       author="Daniel" maintainer="danielchu096@gmail.com"
+LABEL       org.opencontainers.image.source="https://github.com/gravel-host/gh-images"
 LABEL       org.opencontainers.image.licenses="MIT"
 
 RUN         apt-get update -y \
