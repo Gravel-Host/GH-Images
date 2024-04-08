@@ -19,7 +19,14 @@ echo -e "STARTUP /home/container: ${MODIFIED_STARTUP}"
 
 # Run the Server
 # shellcheck disable=SC2086
-echo -e "${YELLOW}Welcome to Gravel Host! If you have any issues please contact us on our discord at discord.gg/gravelhost ${RESET_COLOR}"
+echo "   ______                      __   __  __           __ "
+echo "  / ____/________ __   _____  / /  / / / /___  _____/ /_"
+echo " / / __/ ___/ __ \`/ | / / _ \/ /  / /_/ / __ \/ ___/ __/"
+echo "/ /_/ / /  / /_/ /| |/ /  __/ /  / __  / /_/ (__  ) /_  "
+echo "\____/_/   \__,_/ |___/\___/_/  /_/ /_/\____/____/\__/  "
+echo -e "========================================================================================================"
+echo -e "${YELLOW}Welcome to Gravel Host! If you have any issues don't hesitate to contact us on discord at discord.gg/gravelhost ${RESET_COLOR}"
+echo -e "========================================================================================================"
 eval ${MODIFIED_STARTUP}
 
 
